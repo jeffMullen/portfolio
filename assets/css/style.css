@@ -1,7 +1,7 @@
 :root {
     --background: #0d1b2a;
     --text-color: #C4C5BE;
-    --link-color: #16DB93;
+    --strong-color: #16DB93;
 }
 
 /* || General styles */
@@ -9,11 +9,12 @@
 body {
     background-color: var(--background);
     color: var(--text-color);
+    padding: 10px;
 }
 
 a {
     text-decoration: none;
-    color: var(--link-color)
+    color: var(--strong-color)
 }
 
 /* || Header styles */
@@ -21,14 +22,25 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
 }
 
 h1 {
     font-size: 35px;
-    color: var(--link-color)
+    color: var(--strong-color)
 }
 
 li {
     padding: 2px;
+}
+
+/* || About section */
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about h2 {
+    font-size: 25px;
+    color: var(--strong-color);
 }
