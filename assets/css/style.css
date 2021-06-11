@@ -2,6 +2,8 @@
     --background: #0d1b2a;
     --text-color: #C4C5BE;
     --strong-color: #16DB93;
+    --heading-font: 'Rubik', sans-serif;
+    --content-font: 'Montserrat', sans-serif;
 }
 
 /* || General styles */
@@ -12,9 +14,13 @@ body {
     padding: 10px;
 }
 
+p {
+    font-family: var(--content-font);
+}
+
 a {
     text-decoration: none;
-    color: var(--strong-color)
+    color: var(--strong-color);
 }
 
 /* || Header styles */
@@ -26,7 +32,8 @@ header {
 
 h1 {
     font-size: 35px;
-    color: var(--strong-color)
+    color: var(--strong-color);
+    font-family: var(--heading-font);
 }
 
 li {
@@ -42,5 +49,6 @@ li {
 
 .about h2 {
     font-size: 25px;
+    font-family: var(--heading-font);
     color: var(--strong-color);
 }
