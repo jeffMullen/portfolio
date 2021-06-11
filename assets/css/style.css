@@ -1,7 +1,9 @@
 :root {
     --background: #0d1b2a;
+    --text-color: #C4C5BE;
 }
 
 body {
     background-color: var(--background);
+    color: var(--text-color);
 }
