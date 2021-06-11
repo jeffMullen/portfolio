@@ -8,6 +8,9 @@
 }
 
 /* || General styles */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: var(--background);
@@ -52,7 +55,8 @@ figure {
 }
 
 img {
-    width: 50%;
+    width: 300px;
+    height: 300px;
     margin: 20px 10px;
     /* border-radius: 3%; */
     border: 1px solid #606156;
@@ -81,4 +85,25 @@ main {
 
 .about p {
     padding: var(--element-padding);
+}
+
+/* || Applications section styling */
+
+.applications {
+    display: flex;
+    justify-content: center;
+}
+
+#premier {
+    flex: 1;
+}
+
+#premier img {
+    width: 65%;
+    height: 75%;
+}
+.app-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
