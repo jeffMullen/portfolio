@@ -4,7 +4,7 @@
     --strong-color: #16DB93;
     --heading-font: 'Rubik', sans-serif;
     --content-font: 'Montserrat', sans-serif;
-    --element-padding: 10px;
+    --element-padding: 20px;
 }
 
 /* || General styles */
@@ -37,16 +37,21 @@ div {
 header {
     display: flex;
     justify-content: space-between;
+    padding: var(--element-padding);
+    font-size: 45px;
 }
 
 h1 {
-    font-size: 35px;
+    
     color: var(--strong-color);
     font-family: var(--heading-font);
 }
 
 li {
+    display: inline;
+    font-size: .45em;
     padding: 2px;
+    margin: var(--element-padding);
     font-family: var(--heading-font);
 }
 
