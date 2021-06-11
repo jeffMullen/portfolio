@@ -16,6 +16,7 @@ body {
 
 p {
     font-family: var(--content-font);
+    font-size: 14px;
 }
 
 a {
@@ -38,9 +39,16 @@ h1 {
 
 li {
     padding: 2px;
+    font-family: var(--heading-font);
 }
 
-/* || About section */
+/* || Main section styles */
+
+main {
+    line-height: 1.2;
+}
+
+/* || About section styles */
 
 .about {
     display: flex;
