@@ -28,3 +28,7 @@ h1 {
     font-size: 35px;
     color: var(--link-color)
 }
+
+li {
+    padding: 2px;
+}
