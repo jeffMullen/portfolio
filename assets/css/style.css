@@ -16,6 +16,7 @@ body {
     background-color: var(--background);
     color: var(--text-color);
     padding: var(--element-padding);
+    margin: 0 20px;
 }
 
 p {
@@ -55,24 +56,6 @@ li {
     font-family: var(--heading-font);
 }
 
-figure {
-    margin: auto;
-}
-
-img {
-    width: 300px;
-    height: 300px;
-    margin: 20px 10px;
-    /* border-radius: 3%; */
-    border: 1px solid #606156;
-}
-
-
-h2 {
-    font-size: 25px;
-    font-family: var(--heading-font);
-    color: var(--strong-color);
-}
 
 /* || Main section styles */
 
@@ -81,11 +64,31 @@ main {
     margin: 20px 0;
 }
 
+img {
+    margin: 20px 10px;
+    border: 1px solid #606156;
+    height: 352px;
+}
+
+
+h2 {
+    font-size: 25px;
+    font-family: var(--heading-font);
+    color: var(--strong-color);
+}
 /* || About section styles */
 
 .about {
     display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.about-text {
+    flex: 2;
+    display:flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .about p {
@@ -107,6 +110,12 @@ main {
     width: 65%;
     height: 75%;
 }
+
+.app-wrapper img {
+    width: 300px;
+    height: 300px;
+}
+
 .app-wrapper {
     display: flex;
     flex-wrap: wrap;
