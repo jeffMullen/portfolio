@@ -103,6 +103,10 @@ h2 {
     justify-content: center;
 }
 
+h3 {
+    font-family: var(--heading-font);
+}
+
 #premier {
     flex: 1;
 }
