@@ -81,7 +81,7 @@ p {
 }
 /* || Overall About, Applications, and Contact Section Styles ----------------------- */
 
-.about, .applications {
+.about, .applications, .contact {
     display: flex;
     justify-content: space-around;
     width: 90%;
@@ -175,3 +175,14 @@ h3 {
     margin: 0;
 }
 
+/* Contact-Content flexbox */
+
+.contact-content {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-content p {
+    font-size: 16px;
+}
