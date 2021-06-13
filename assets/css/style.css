@@ -7,7 +7,8 @@
     --element-padding: 20px;
 }
 
-/* || General styles */
+/* || General styles ***************** */
+
 html {
     scroll-behavior: smooth;
 }
@@ -24,7 +25,7 @@ a {
     color: var(--strong-color);
 }
 
-/* || Header styles */
+/* || Header styles ***************** */
 
 header {
     display: flex;
@@ -48,7 +49,7 @@ li {
 }
 
 
-/* || Main section styles */
+/* || Main section styles ***************** */
 
 main {
     line-height: 1.3;
@@ -78,7 +79,7 @@ p {
     font-family: var(--content-font);
     font-size: 14px;
 }
-/* || About section styles */
+/* || About section styles ***************** */
 
 .about {
     display: flex;
@@ -101,37 +102,37 @@ p {
     padding: var(--element-padding);
 }
 
-/* || Overall Applications section styling */
+/* || Overall Applications section styling ***************** */
+
 .applications {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding: var(--element-padding);
 }
 
 .applications h2 {
-    padding-right: 120px;
+    padding: 0 180px 0 70px;
     border-right: 3px solid var(--strong-color);
 }
 
 h3 {
-    font-family: var(--heading-font);
+    font-family: var(--content-font);
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 20px 0;
 }
 
-/* || Applications main flexbox*/
+/* || Applications main flexbox ***************** */
 
 .applications > div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 75%;
-    padding: 0;
+    width: 70%;
     margin: 0;
 }
 
-
-/* .applications a {
-    display: flex;
-    justify-content: center;
-} */
+/* Largest Application section ***************** */
 
 #premier {
     width: 100%;
@@ -144,6 +145,8 @@ h3 {
     width: 95%;
     margin: 0;
 }
+
+/* Small Application section ***************** */
 
 .app-wrapper {
     display: flex;
