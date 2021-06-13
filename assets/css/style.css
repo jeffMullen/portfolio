@@ -81,11 +81,15 @@ p {
 }
 /* || About section styles ----------------------- */
 
-.about {
+.about, .applications {
     display: flex;
     justify-content: space-around;
     width: 90%;
     margin: 50px auto;
+}
+
+.about h2 {
+    width: 163px;
 }
 
 .about-content {
@@ -117,15 +121,11 @@ p {
 
 /* || Overall Applications section styling ----------------------- */
 
-.applications {
-    display: flex;
-    justify-content: space-between;
-    padding: var(--element-padding);
-}
 
 .applications h2 {
-    padding: 0 180px 0 70px;
-    border-right: 3px solid var(--strong-color);
+    width: 163px;
+    /* padding: 0 180px 0 70px;
+    border-right: 3px solid var(--strong-color); */
 }
 
 h3 {
@@ -137,11 +137,12 @@ h3 {
 
 /* || Applications main flexbox ----------------------- */
 
-.applications > div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.applications-content {
     width: 70%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    flex-wrap: wrap;
     margin: 0;
 }
 
