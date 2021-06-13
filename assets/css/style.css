@@ -79,7 +79,7 @@ p {
     font-family: var(--content-font);
     font-size: 14px;
 }
-/* || About section styles ----------------------- */
+/* || Overall About, Applications, and Contact Section Styles ----------------------- */
 
 .about, .applications {
     display: flex;
@@ -88,9 +88,11 @@ p {
     margin: 50px auto;
 }
 
-.about h2 {
+.section-heading h2 {
     width: 163px;
 }
+
+/* About Content flexbox ----------------------- */
 
 .about-content {
     width: 70%;
@@ -99,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-/* Paragraph section flexbox ----------------------- */
+/* About Paragraph section flexbox ----------------------- */
 
 .about-paragraphs {
     display: flex;
@@ -119,15 +121,6 @@ p {
     border: 2px solid var(--strong-color);
 }
 
-/* || Overall Applications section styling ----------------------- */
-
-
-.applications h2 {
-    width: 163px;
-    /* padding: 0 180px 0 70px;
-    border-right: 3px solid var(--strong-color); */
-}
-
 h3 {
     font-family: var(--content-font);
     letter-spacing: 1px;
@@ -135,14 +128,12 @@ h3 {
     margin-bottom: 20px;
 }
 
-/* || Applications main flexbox ----------------------- */
+/* || Applications Content flexbox ----------------------- */
 
 .applications-content {
     width: 70%;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
-    flex-wrap: wrap;
     margin: 0;
 }
 
