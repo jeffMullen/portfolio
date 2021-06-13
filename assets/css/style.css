@@ -19,18 +19,9 @@ body {
     margin: 0 20px;
 }
 
-p {
-    font-family: var(--content-font);
-    font-size: 14px;
-}
-
 a {
     text-decoration: none;
     color: var(--strong-color);
-}
-
-div {
-    padding: var(--element-padding);
 }
 
 /* || Header styles */
@@ -77,6 +68,15 @@ h2 {
     font-family: var(--heading-font);
     color: var(--strong-color);
 }
+
+div {
+    padding: var(--element-padding);
+}
+
+p {
+    font-family: var(--content-font);
+    font-size: 14px;
+}
 /* || About section styles */
 
 .about {
@@ -100,33 +100,62 @@ h2 {
     padding: var(--element-padding);
 }
 
-/* || Applications section styling */
-
+/* || Overall Applications section styling */
 .applications {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 h3 {
     font-family: var(--heading-font);
 }
 
+/*  */
+
+.applications > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+    padding: 0;
+    margin: 0;
+}
+
+/* .applications a {
+    display: flex;
+    justify-content: center;
+} */
+
 #premier {
-    flex: 1;
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+    margin: 0;
 }
 
 #premier img {
-    width: 65%;
-    height: 75%;
-}
-
-.app-wrapper img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    margin: 0;
 }
 
 .app-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
+
+.app-wrapper div {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+    
+.app-wrapper img {
+    /* width: 400px; */
+    width: 90%;
+    height: 150px;
+    margin: 0;
+}
+
