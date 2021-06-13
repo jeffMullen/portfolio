@@ -7,7 +7,7 @@
     --element-padding: 20px;
 }
 
-/* || General styles ***************** */
+/* || General styles ----------------------- */
 
 html {
     scroll-behavior: smooth;
@@ -25,7 +25,7 @@ a {
     color: var(--strong-color);
 }
 
-/* || Header styles ***************** */
+/* || Header styles ----------------------- */
 
 header {
     display: flex;
@@ -49,7 +49,7 @@ li {
 }
 
 
-/* || Main section styles ***************** */
+/* || Main section styles ----------------------- */
 
 main {
     line-height: 1.3;
@@ -79,7 +79,7 @@ p {
     font-family: var(--content-font);
     font-size: 14px;
 }
-/* || About section styles ***************** */
+/* || About section styles ----------------------- */
 
 .about {
     display: flex;
@@ -88,10 +88,6 @@ p {
     margin: 50px auto;
 }
 
-/* .about h2 {
-    padding-right: 7%;
-} */
-
 .about-content {
     width: 70%;
     display:flex;
@@ -99,9 +95,19 @@ p {
     justify-content: space-evenly;
 }
 
+/* Paragraph section flexbox ----------------------- */
+
+.about-paragraphs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .about p {
     padding: var(--element-padding);
 }
+
+/* Dividing bar between all headings and content ----------------------- */
 
 .divider {
     padding: 0;
@@ -109,7 +115,7 @@ p {
     border: 2px solid var(--strong-color);
 }
 
-/* || Overall Applications section styling ***************** */
+/* || Overall Applications section styling ----------------------- */
 
 .applications {
     display: flex;
@@ -129,7 +135,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-/* || Applications main flexbox ***************** */
+/* || Applications main flexbox ----------------------- */
 
 .applications > div {
     display: flex;
@@ -139,7 +145,7 @@ h3 {
     margin: 0;
 }
 
-/* Largest Application section ***************** */
+/* Largest Application section ----------------------- */
 
 #premier {
     width: 100%;
@@ -152,7 +158,7 @@ h3 {
     margin: 0;
 }
 
-/* Small Application section ***************** */
+/* Small Application section ----------------------- */
 
 .app-wrapper {
     display: flex;
