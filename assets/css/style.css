@@ -121,6 +121,10 @@ h3 {
     margin: 0;
 }
 
+.applications h2 {
+    padding: var(--element-padding);
+}
+
 /* .applications a {
     display: flex;
     justify-content: center;
@@ -134,7 +138,7 @@ h3 {
 }
 
 #premier img {
-    width: 100%;
+    width: 95%;
     margin: 0;
 }
 
@@ -147,15 +151,15 @@ h3 {
 }
 
 .app-wrapper div {
-    padding: 0;
+    padding: 10px 0;
     margin: 0;
     width: 50%;
     display: flex;
     flex-direction: column;
+    align-content: space-around;
 }
     
 .app-wrapper img {
-    /* width: 400px; */
     width: 90%;
     height: 150px;
     margin: 0;
