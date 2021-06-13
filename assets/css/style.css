@@ -110,7 +110,7 @@ h3 {
     font-family: var(--heading-font);
 }
 
-/*  */
+/* || Applications main flexbox*/
 
 .applications > div {
     display: flex;
@@ -141,7 +141,7 @@ h3 {
 .app-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0;
     margin: 0;
 }
@@ -150,6 +150,8 @@ h3 {
     padding: 0;
     margin: 0;
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
     
 .app-wrapper img {
