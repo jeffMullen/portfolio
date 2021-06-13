@@ -67,6 +67,7 @@ h2 {
     font-size: 25px;
     font-family: var(--heading-font);
     color: var(--strong-color);
+    letter-spacing: 1.5px;
 }
 
 div {
@@ -106,6 +107,11 @@ p {
     justify-content: flex-end;
 }
 
+.applications h2 {
+    padding-right: 120px;
+    border-right: 3px solid var(--strong-color);
+}
+
 h3 {
     font-family: var(--heading-font);
 }
@@ -121,9 +127,6 @@ h3 {
     margin: 0;
 }
 
-.applications h2 {
-    padding: var(--element-padding);
-}
 
 /* .applications a {
     display: flex;
@@ -134,7 +137,7 @@ h3 {
     width: 100%;
     margin: 20px 0;
     padding: 0;
-    margin: 0;
+    margin-top: 50px;
 }
 
 #premier img {
