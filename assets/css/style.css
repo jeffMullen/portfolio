@@ -239,3 +239,19 @@ h3 {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 935px) {
+    .about, .applications, .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .divider {
+        width: 100%;
+        height: 3px;
+        margin-top: 20px;
+    }
+}
