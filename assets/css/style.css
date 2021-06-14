@@ -321,3 +321,16 @@ h3 {
         width: 90%;
     }
 }
+
+/* || Centering self-portrait image ----------------------- */
+
+@media screen and (max-width: 350px) {
+    .about-content div:first-child {
+        width: 90%;
+        align-self:;
+    }
+
+    .about img {
+        width: inherit;
+    }
+}
