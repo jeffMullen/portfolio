@@ -100,7 +100,7 @@ p {
     width: 163px;
 }
 
-/* About Content flexbox ----------------------- */
+/* || About Content flexbox ----------------------- */
 
 .about-content {
     width: 70%;
@@ -109,7 +109,7 @@ p {
     justify-content: space-evenly;
 }
 
-/* About Paragraph section flexbox ----------------------- */
+/* || About Paragraph section flexbox ----------------------- */
 
 .about-content div:first-child {
     height: 385px;
@@ -126,7 +126,7 @@ p {
     padding: var(--element-padding);
 }
 
-/* Dividing bar between all headings and content ----------------------- */
+/* || Dividing bar between all headings and content ----------------------- */
 
 .divider {
     padding: 0;
@@ -150,7 +150,7 @@ h3 {
     margin: 0;
 }
 
-/* Largest Application section ----------------------- */
+/* || Largest Application section ----------------------- */
 
 #premier {
     width: 100%;
@@ -163,7 +163,7 @@ h3 {
     margin: 0;
 }
 
-/* Small Application section ----------------------- */
+/* || Small Application section ----------------------- */
 
 .app-wrapper {
     display: flex;
@@ -192,7 +192,7 @@ h3 {
     margin: 0;
 }
 
-/* Contact-Content flexbox ----------------------- */
+/* || Contact-Content flexbox ----------------------- */
 
 .contact-content {
     width: 70%;
@@ -211,7 +211,7 @@ h3 {
                  0 0 10px var(--strong-color);
 }
 
-/* Self Portait image moves to top of section ----------------------- */
+/* || Self Portait image moves to top of section ----------------------- */
 
 @media screen and (max-width: 1390px) {
     body {
@@ -224,7 +224,7 @@ h3 {
     }
 }
 
-/* Small Application images wrap to 1 per row ----------------------- */
+/* || Small Application images wrap to 1 per row ----------------------- */
 
 @media screen and (max-width: 1135px) {
     .app-wrapper {
@@ -240,6 +240,8 @@ h3 {
     }
 }
 
+/* || Entire app moves to column layout ----------------------- */
+
 @media screen and (max-width: 935px) {
     .about, .applications, .contact {
         display: flex;
@@ -253,5 +255,17 @@ h3 {
         width: 100%;
         height: 3px;
         margin-top: 20px;
+    }
+}
+
+/* || Nav bar set to display as a column ----------------------- */
+
+@media screen and (max-width: 800px) {
+    main {
+        margin-top: 50px;
+    }
+
+    li {
+        display: block;
     }
 }
