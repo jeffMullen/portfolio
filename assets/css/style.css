@@ -297,3 +297,27 @@ h3 {
         flex-wrap: wrap;
     }
 }
+
+/* || Header flex-direction as columnm ----------------------- */
+
+@media screen and (max-width: 575px) {
+    .about, .application, .contact {
+        width: 100%;
+    }
+
+    .about-paragraphs {
+        padding: 0;
+    }
+    
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding-top: 35px;
+    }
+
+    .about .divider, .contact .divider {
+        width: 90%;
+    }
+}
