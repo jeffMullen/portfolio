@@ -277,3 +277,23 @@ h3 {
         display: block;
     }
 }
+
+/* || Content takes up more width ----------------------- */
+
+@media screen and (max-width: 743px) {
+    .contact {
+        justify-content: space-evenly;
+    }
+
+    .about-content, .applications-content {
+        width: 90%;
+    }
+
+    .contact a {
+        width: 220px;
+    }
+    
+    .contact-content {
+        flex-wrap: wrap;
+    }
+}
