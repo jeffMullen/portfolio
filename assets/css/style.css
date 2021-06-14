@@ -192,7 +192,7 @@ h3 {
     margin: 0;
 }
 
-/* Contact-Content flexbox */
+/* Contact-Content flexbox ----------------------- */
 
 .contact-content {
     width: 70%;
@@ -211,6 +211,8 @@ h3 {
                  0 0 10px var(--strong-color);
 }
 
+/* Self Portait image moves to top of section ----------------------- */
+
 @media screen and (max-width: 1390px) {
     body {
         margin: 0 10px;
@@ -219,5 +221,21 @@ h3 {
 
     .about-content {
         flex-direction: column;
+    }
+}
+
+/* Small Application images wrap to 1 per row ----------------------- */
+
+@media screen and (max-width: 1135px) {
+    .app-wrapper {
+        width: 100%;
+    }
+
+    .app-wrapper div {
+        width: 100%;
+    }
+
+    .app-wrapper img {
+        width: 100%;
     }
 }
