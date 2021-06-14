@@ -111,6 +111,11 @@ p {
 
 /* About Paragraph section flexbox ----------------------- */
 
+.about-content div:first-child {
+    height: 385px;
+    align-self: center;
+}
+
 .about-paragraphs {
     display: flex;
     flex-direction: column;
@@ -205,3 +210,5 @@ h3 {
     text-shadow: 0 0 5px var(--strong-color),
                  0 0 10px var(--strong-color);
 }
+
+@media screen and (min-width: )
