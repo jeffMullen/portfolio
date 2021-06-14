@@ -195,8 +195,9 @@ h3 {
     justify-content: space-evenly;
 }
 
-.contact-content p {
+.contact-content a {
     font-size: 16px;
+    font-family: var(--content-font);
 }
 
 .contact-content a:hover {
