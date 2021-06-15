@@ -327,7 +327,7 @@ h3 {
 @media screen and (max-width: 350px) {
     .about-content div:first-child {
         width: 90%;
-        align-self:;
+        align-self: center;
     }
 
     .about img {
