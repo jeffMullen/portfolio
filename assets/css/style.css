@@ -163,6 +163,7 @@ h3 {
 #premier img {
     width: 95%;
     margin: 0;
+    object-fit: cover;
 }
 
 /* || Small Application section ----------------------- */
@@ -192,6 +193,7 @@ h3 {
     width: 95%;
     height: 150px;
     margin: 0;
+    object-fit: cover;
 }
 
 /* || Contact-Content flexbox ----------------------- */
