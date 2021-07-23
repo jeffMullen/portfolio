@@ -152,6 +152,12 @@ h3 {
     margin: 0;
 }
 
+.repo-link {
+    background-color: var(--strong-color);
+    color: var(--background);
+    padding: 5px 10px;
+    font-weight: bold;
+}
 /* || Largest Application section ----------------------- */
 
 #premier {
