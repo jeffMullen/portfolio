@@ -157,6 +157,7 @@ h3 {
     color: var(--background);
     padding: 5px 10px;
     font-weight: bold;
+    border-radius: 2px;
 }
 /* || Largest Application section ----------------------- */
 
