@@ -166,6 +166,10 @@ h5 {
     padding: 5px 10px;
 }
 
+.applications-content img:hover {
+    cursor: pointer;
+}
+
 .applications-content p {
     display: none;
 }
