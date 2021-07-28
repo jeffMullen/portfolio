@@ -21,7 +21,7 @@ const linkModal = imageLink => {
 
     let gitHubApplication = $('<a>');
     gitHubApplication.attr('href', `${gitHubLink}`);
-    gitHubApplication.text('GitHub Application');
+    gitHubApplication.text('GitHub Repository');
     gitHubApplication.attr('class', 'col-6');
 
     modalBody.append(liveApplication);
