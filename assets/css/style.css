@@ -215,6 +215,10 @@ h3 {
     border: 3px solid var(--strong-color);
 }
 
+.modal-header h5{
+    margin-bottom: 10px;
+}
+
 .modal-content button {
     color: var(--link-glow-color);
 }
