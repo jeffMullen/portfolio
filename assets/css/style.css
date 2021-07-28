@@ -51,10 +51,12 @@ a {
     transition: .2s;
 }
 
-header a:hover {
+header a:hover, .modal-content a:hover {
     color: var(--link-glow-color);
-    text-shadow: 0 0 5px var(--strong-color),
+    text-shadow: 
+    /* 0 0 5px var(--strong-color); */
                  0 0 10px var(--strong-color);
+    text-decoration: none;
 }
 
 /* || Main section styles ----------------------- */
@@ -152,7 +154,7 @@ h3 {
     margin: 0;
 }
 
-.applications-content span {
+.applications-content span, h5 {
     background-color: var(--strong-color);
     color: var(--background);
     padding: 5px 10px;
@@ -208,8 +210,18 @@ h3 {
 }
 
 /* || Modal Stylings ----------------------- */
+.modal-content {
+    background-color: #0f2a47;
+    border: 3px solid var(--strong-color);
+}
+
+.modal-content button {
+    color: var(--link-glow-color);
+}
+
 .modal a {
     display: block;
+    font-weight: bold;
 }
 
 /* || Contact-Content flexbox ----------------------- */
