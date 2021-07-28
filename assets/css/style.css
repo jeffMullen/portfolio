@@ -139,7 +139,7 @@ p {
 }
 
 h3 {
-    font-family: var(--content-font);
+    font-family: var(--heading-font);
     letter-spacing: 1px;
     font-size: 20px;
     margin-bottom: 12px;

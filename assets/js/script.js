@@ -4,7 +4,6 @@ const modalTitle = $('.modal-title');
 
 const linkModal = imageLink => {
     console.log(imageLink);
-    // console.log(imageLink.previousElementSibling.previousElementSibling.textContent);
 
     let liveLink = imageLink.previousElementSibling.previousElementSibling.textContent;
     let gitHubLink = imageLink.previousElementSibling.textContent;
