@@ -24,6 +24,7 @@ const linkModal = imageLink => {
 }
 
 applications.on('click', 'img', function () {
+    modalBody.empty();
     let imageLink = this;
 
     linkModal(imageLink);
