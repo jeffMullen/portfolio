@@ -243,8 +243,9 @@ h3 {
 
 .contact-content a:hover {
     color: var(--link-glow-color);
-    text-shadow: 0 0 5px var(--strong-color),
-                 0 0 10px var(--strong-color);
+    text-shadow: 0 0 8px var(--strong-color);
+                 /* 0 0 10px var(--strong-color); */
+    text-decoration: none;
 }
 
 /* || Self Portait image moves to top of section ----------------------- */
