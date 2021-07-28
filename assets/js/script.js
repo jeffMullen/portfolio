@@ -17,12 +17,14 @@ const linkModal = imageLink => {
     liveApplication.attr('href', `${liveLink}`);
     liveApplication.text('Live Application');
     liveApplication.attr('class', 'col-6');
+    liveApplication.attr('target', '_blank');
 
 
     let gitHubApplication = $('<a>');
     gitHubApplication.attr('href', `${gitHubLink}`);
     gitHubApplication.text('GitHub Repository');
     gitHubApplication.attr('class', 'col-6');
+    gitHubApplication.attr('target', '_blank');
 
     modalBody.append(liveApplication);
     modalBody.append(gitHubApplication);
