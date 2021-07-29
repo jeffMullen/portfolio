@@ -231,6 +231,18 @@ h5 {
     color: var(--link-glow-color);
 }
 
+.modal-footer {
+    color: white;
+}
+
+.modal-footer p {
+    letter-spacing: 1px;
+}
+
+.modal-footer p:first-child {
+    margin-bottom: 15px;
+}
+
 .modal a {
     display: block;
     font-weight: bold;
