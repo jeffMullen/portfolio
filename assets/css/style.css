@@ -308,6 +308,10 @@ h5 {
     h2 {
         text-align: end;
     }
+
+    .skills-content p {
+        text-align: center;
+    }
     
     #premier img {
         width: 100%;
@@ -353,10 +357,6 @@ h5 {
         width: 80%;
     }
 
-    .skills-content p {
-        text-align: center;
-    }
-
     .contact-content {
         width: 90%;
     }
@@ -385,6 +385,15 @@ h5 {
         width: 90%;
     }
 
+    .skills-content {
+        justify-content: space-evenly;
+    }
+
+    .skills-content p {
+        margin-bottom: 25px;
+        width: 40%;
+    }
+
     .contact a {
         width: 220px;
     }
@@ -403,6 +412,10 @@ h5 {
 
     .about-paragraphs {
         padding: 0;
+    }
+
+    .skills-content {
+        width: 100%;
     }
     
     header {
