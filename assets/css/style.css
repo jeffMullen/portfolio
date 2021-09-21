@@ -222,7 +222,6 @@ h5 {
     width: 50%;
     display: flex;
     flex-direction: column;
-    /* justify-content: end; */
     align-content: space-around;
 }
 
@@ -407,11 +406,36 @@ h5 {
 /* || Header flex-direction as columnm ----------------------- */
 
 @media screen and (max-width: 575px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding-top: 20px;
+    }
+
+    nav ul {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
     .about, .application, .contact {
         width: 100%;
     }
 
+    .about-content {
+        width: 100%;
+    }
+
     .about-paragraphs {
+        margin-top: 40px;
+        /* width: 100%; */
         padding: 0;
     }
 
@@ -419,14 +443,6 @@ h5 {
         width: 100%;
     }
     
-    header {
-        flex-direction: column;
-    }
-
-    nav {
-        padding-top: 35px;
-    }
-
     .about .divider, .contact .divider {
         width: 90%;
     }
