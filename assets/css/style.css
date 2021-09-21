@@ -79,6 +79,7 @@ h2 {
     font-family: var(--heading-font);
     color: var(--strong-color);
     letter-spacing: 1.5px;
+    text-align: center;
 }
 
 div {
@@ -91,9 +92,12 @@ p {
     line-height: 1.5;
     letter-spacing: .5px;
 }
-/* || Overall About, Applications, and Contact Section Styles ----------------------- */
+/* || Overall About, Skills, Applications, and Contact Section Styles ----------------------- */
 
-.about, .applications, .contact {
+.about, 
+.skills,
+.applications, 
+.contact {
     display: flex;
     justify-content: space-around;
     width: 90%;
@@ -145,7 +149,22 @@ h3 {
     margin-bottom: 12px;
 }
 
-/* || Applications Content flexbox ----------------------- */
+/* || Skills Content ----------------------- */
+
+.skills-content {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills-content p {
+    font-size: 18px;
+    width: 30%;
+}
+
+
+/* || Applications Content ----------------------- */
 
 .applications-content {
     width: 70%;
@@ -286,6 +305,10 @@ h5 {
 /* || Small Application images wrap to 1 per row ----------------------- */
 
 @media screen and (max-width: 1135px) {
+    h2 {
+        text-align: end;
+    }
+    
     #premier img {
         width: 100%;
     }
@@ -306,7 +329,7 @@ h5 {
 /* || Entire app moves to column layout ----------------------- */
 
 @media screen and (max-width: 935px) {
-    .about, .applications, .contact {
+    .about, .skills, .applications, .contact {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -314,10 +337,24 @@ h5 {
         margin: 50px auto;
     }
 
+    h2 {
+        text-align: center;
+    }    
+
+
     .divider {
         width: 100%;
         height: 7px;
         margin-top: 20px;
+    }
+
+    .skills-content {
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    .skills-content p {
+        text-align: center;
     }
 
     .contact-content {
